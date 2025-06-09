@@ -1,40 +1,35 @@
-Claro, aquí tienes el contenido completo del README.md en un solo bloque listo para copiar y pegar:
-
-
----
-
-🧠 Código del Proyecto Web Personal – Módulo 2
+ Código del Proyecto Web Personal – Módulo 2
 
 Este proyecto está desarrollado usando HTML semántico y CSS moderno. Es un sitio web personal donde presento mi información, trabajos previos y un formulario de contacto. A continuación se describe cómo está estructurado y cómo funciona el código.
 
 
 ---
 
-📁 Estructura del proyecto
+ Estructura del proyecto
 
 proyecto/
-│
-├── index.html              ← Página de inicio
-├── presentation.html       ← Presentación personal
-├── portfolio.html          ← Portafolio con tres proyectos
-├── contact.html            ← Formulario de contacto
-├── style.css               ← Estilos generales y responsivos
-└── imagenes/               ← Imágenes usadas en el sitio
-    ├── yo.jpeg
-    ├── imghoja.png
-    ├── 7 paginas.png
-    └── S1.png
+
+index.html              ← Página de inicio
+presentation.html       ← Presentación personal
+portfolio.html          ← Portafolio con tres proyectos
+contact.html            ← Formulario de contacto
+style.css               ← Estilos generales y responsivos
+imagenes/               ← Imágenes usadas en el sitio
+    -yo.jpeg
+    -imghoja.png
+    -7 paginas.png
+    -S1.png
 
 
 ---
 
-📄 Descripción de archivos HTML
+ Descripción de archivos HTML
 
 index.html
 
 Página principal del sitio.
 
-Usa etiquetas semánticas: <header>, <nav>, <main>, <footer>.
+Usa etiquetas semánticas: header, nav, main, footer.
 
 Contiene enlaces internos a las secciones: presentación, portafolio y contacto.
 
@@ -71,9 +66,9 @@ Estilizado con campos organizados dentro de un <fieldset>.
 
 ---
 
-🎨 Estilos en style.css
+ Estilos en style.css
 
-1. 🎯 Variables CSS
+1.  Variables CSS
 
 Se usan variables para mantener consistencia de colores:
 
@@ -84,14 +79,14 @@ Se usan variables para mantener consistencia de colores:
   --grey: grey;
 }
 
-2. 📐 Layouts con Flexbox y Grid
+2.  Layouts con Flexbox y Grid
 
 .nav_bar usa display: grid para menú responsive.
 
 .container__projects usa grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) para que se adapte automáticamente.
 
 
-3. ✨ Transiciones y animaciones
+3.  Transiciones y animaciones
 
 Botones y enlaces tienen transiciones suaves con transition y :hover.
 
@@ -103,7 +98,7 @@ Animación flotante en la imagen de presentación:
   to { transform: translateY(10px); }
 }
 
-4. 🧭 Responsividad
+4.  Responsividad
 
 Grid adaptable para proyectos.
 
@@ -124,7 +119,7 @@ Escritorio (≥1024px)
 
 ---
 
-🖱️ Interactividad
+ Interactividad
 
 Transiciones en botones y li:hover para navegación.
 
@@ -136,7 +131,7 @@ Las tarjetas del portafolio cambian visualmente al pasar el cursor.
 
 ---
 
-📌 Buenas prácticas aplicadas
+Buenas prácticas aplicadas
 
 Separación de estructura (HTML) y estilos (CSS).
 
@@ -154,22 +149,6 @@ Responsive sin librerías externas, usando solo CSS puro.
 
 ---
 
-🧑‍💻 Autor
+ Autor
 
 Cristian Chaverra Colorado
-Proyecto final para el Módulo 2 – Desarrollo Web
-Formación en Riwi
-GitHub
-
-
----
-
-🗂️ Licencia
-
-Este código está disponible para fines educativos. Puedes reutilizarlo dando crédito al autor.
-
-
----
-
-¿Deseas también una versión en PDF o en inglés?
-
