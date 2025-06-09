@@ -1,0 +1,89 @@
+:root {
+  --orange: #f58b01;
+  --black: #000000;
+  --white: #ffffff;
+  --font-montserrat: "Montserrat";
+  --font-poetsen-one: "Poetsen One";
+}
+body{
+      background: url(./imagenes/fondo.png)  ;
+}
+.nav_bar{
+background-color: #f58b01;
+display: flex;
+flex-direction: row;
+
+}
+
+.link{
+  text-decoration: none ;
+  white-space: nowrap;
+}
+
+.container__projects {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: auto;
+  gap: 1.5rem;
+  place-items: center;
+}
+
+.container__projects .box {
+  height: 600px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 5px solid var(--white);
+  border-radius: .3rem;
+}
+
+.box img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box .title {
+  font-size: 25px;
+  color: var(--orange);
+}
+
+.box .description {
+  line-height: 2;
+  color: var(--white);
+}
+
+.box .button {
+  background-color: transparent;
+  color: var(--orange);
+  padding: 15px 25px;
+  font-size: 20px;
+  border: 2px solid var(--orange);
+  border-radius: .5rem;
+  cursor: pointer;
+  position: relative;
+
+  transition: 400ms ease;
+}
+
+.box .button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--orange);
+  z-index: -1;
+  transition: 400ms ease;
+}
+
+.box .button:hover {
+  color: var(--black)
+} 
+
+.box .button:hover::before {
+  width: 100%;
+}
